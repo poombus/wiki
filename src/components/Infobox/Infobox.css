@@ -1,0 +1,41 @@
+.info-box {
+  float: right;
+  width: 250px;
+  margin: 0px 0px 10px 20px;
+  /*padding: 10px;*/
+  border: 2px solid var(--border-color);
+  border-bottom: 0px;
+  background-color: var(--panel-color);
+  font-size: 0.9rem;
+}
+
+.info-box .title {
+  text-align: center;
+}
+
+.info-box .entry {
+  width: 100%;
+  padding: 4px 8px;
+  border-bottom: var(--border-color) 2px solid;
+}
+
+.entry .name {
+  font-weight: bold;
+  min-width: 90px;
+  max-width: 90px;
+  padding-right: 8px;
+  overflow-wrap: break-word;
+}
+
+.entry .value {
+  overflow-wrap: break-word;
+}
+
+.entry .hide-button {
+  float:right;
+}
+
+.hide-button .text {
+  color: var(--alt-color);
+  cursor: pointer;
+}

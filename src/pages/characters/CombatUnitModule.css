@@ -1,0 +1,77 @@
+.div-table {
+    max-width: 500px;
+}
+
+.div-table div {
+    text-align: center;
+    width: 100%;
+}
+
+.row-header {
+    background-color: var(--panel-color);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.row div {
+    flex: 1;
+    background-color: #800000;
+}
+
+.row div.alt, .row.alt div {
+    background-color: #4c0000;
+}
+
+.sap {
+    width: 100%;
+    max-width: 500px;
+}
+
+.sap .skill-list, .sap .passive-list {
+    /*min-height: 200px;*/
+    max-height: 500px;
+    width: 100%;
+    overflow-y:auto;
+}
+
+.sap p {
+    text-align: left;
+    padding-left: 8px;
+}
+
+.passive-list .passive-name {
+    background-color: #67472c;
+    border: 2px #47311e solid;
+    border-left: 0px;
+    border-right: 10px #47311e solid;
+    max-width: 75%;
+    text-align: left;
+    padding-left: 8px;
+    margin-top: 16px;
+}
+
+.skill-list .skill {
+    background-color: gray;
+    margin: 16px 0px;
+}
+
+.skill hr {
+    margin: 0px 8px;
+}
+
+.skill .name {
+    text-align: left;
+    padding-left: 8px;
+    background-color: rgb(0, 164, 164);
+}
+
+.skill .name .damage-icon {
+    height: 20px;
+    vertical-align: "center";
+    margin-bottom: 4px;
+}
